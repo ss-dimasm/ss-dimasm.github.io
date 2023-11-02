@@ -1,0 +1,1 @@
+import{Q as r,U as a}from"./url-7b6b21ab.js";import{a as t,b as u}from"./app-071066e2.js";const m=e=>t({queryKey:r.APPLICANT.paginated(e==null?void 0:e.queryParams),...e,path:a.APPLICANTS}),f=(e,P)=>t({fetchWhenTrue:[e],queryKey:r.APPLICANT.single(e),...P,path:`${a.APPLICANTS}/${e}`}),l=e=>u({...e,method:"GET",path:a.APPLICANTS});export{m as a,f as b,l as u};
