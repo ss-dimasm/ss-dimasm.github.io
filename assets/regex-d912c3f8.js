@@ -1,0 +1,1 @@
+import{a as e}from"./index.esm-c689e26d.js";const a=new RegExp(/^[0-9\s()+]+$/),n=e().trim().required().matches(a),o=e().trim().required().email(),t=new RegExp(/^[a-zA-Z'\s]+$/),i=new RegExp(/^[a-zA-Z0-9\s]+$/);export{i as a,a as b,o as e,t as n,n as p};

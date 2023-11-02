@@ -1,0 +1,1 @@
+const a={all:["contact"],single:l=>[...a.all,l]},n={all:["applicant"],single:l=>[...n.all,l]},t={all:["arw-admin-setup"],byOffice:l=>[t.all,l]},c={CONTACT_KEYS:a,APPLICANT_KEYS:n,ARW_ADMIN_SETUP_KEYS:t};export{c as Q};

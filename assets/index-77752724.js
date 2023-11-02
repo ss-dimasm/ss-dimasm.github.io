@@ -1,0 +1,1 @@
+import{Q as e,U as u}from"./url-ce1d32f5.js";import{a as m}from"./app-1088c2df.js";const f=r=>{var a;return m({queryKey:e.CONFIGURATION.types(((a=r==null?void 0:r.queryParams)==null?void 0:a.type)??["all"]),...r,path:u.CONFIGURATION_TYPES})};export{f as u};
