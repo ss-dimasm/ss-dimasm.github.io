@@ -1,1 +1,0 @@
-import{j as f}from"./index-154d360c.js";import{r as o}from"./elements-7fcf5525.js";const i=({src:e,fallbackComponent:s,...a})=>{const[t,n]=o.useState(!1),[d,m]=o.useState(!1);return o.useEffect(()=>{const r=new Image;r.src=e,r.onload=()=>n(!0),r.onerror=()=>m(!0)},[e]),d||!t?s:f("img",{src:t?e:void 0,...a})};export{i as L};

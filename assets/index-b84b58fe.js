@@ -1,1 +1,0 @@
-import{Q as r,U as a}from"./url-7b6b21ab.js";import{a as t,b as s}from"./app-071066e2.js";const O=e=>t({queryKey:r.NEGOTIATOR.paginated(e==null?void 0:e.queryParams),...e,path:a.NEGOTIATORS}),E=(e,u)=>t({fetchWhenTrue:[e],queryKey:r.NEGOTIATOR.single(e),...u,path:`${a.NEGOTIATORS}/${e}`}),f=e=>s({...e,method:"GET",path:a.NEGOTIATORS});export{f as a,O as b,E as u};

@@ -1,0 +1,1 @@
+import{U as r,Q as t}from"./url-4ca753ad.js";import{b as e,a as u}from"./app-fc3be005.js";const m=a=>u({queryKey:t.JOURNAL_ENTRY.paginated(a==null?void 0:a.queryParams),...a,path:r.JOURNAL_ENTRIES}),n=a=>e({...a,method:"GET",path:r.JOURNAL_ENTRIES}),R=a=>e({...a,method:"POST",path:r.JOURNAL_ENTRIES});export{R as a,n as b,m as u};
